@@ -1,0 +1,13 @@
+.search-result {
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  z-index: 1001;
+
+  &:hover {
+    background-color: #354b9c;
+  }
+
+  &:active {
+    background-color: #354b9c;
+  }
+}

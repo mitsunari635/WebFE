@@ -1,0 +1,276 @@
+.product-detail-container {
+  height: 40em;
+  margin: 2% 4%;
+  display: flex;
+  font-family: serif;
+  gap: 1%;
+
+  .product-image {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+    .product-image-main {
+      height: 75%;
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .product-image-option {
+      display: flex;
+      justify-content: center;
+      gap: 1%;
+      height: 20%;
+      width: 100%;
+
+      .option-image {
+        border: 1px solid black;
+        width: 20%;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .product-detail {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+    .product-info {
+      height: 60%;
+      width: 100%;
+
+      .product-name {
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .product-price {
+        font-size: 20px;
+        display: flex;
+
+        .price-number {
+          margin-right: 5px;
+          color: red;
+          font-weight: bold;
+        }
+      }
+
+      .product-describe {
+        height: fit-content;
+      }
+    }
+
+    .product-selection {
+      width: 100%;
+      display: flex;
+      height: 10%;
+
+      .product-option {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        gap: 1%;
+        select {
+          padding: 2%;
+        }
+      }
+
+      .product-amount {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        gap: 1%;
+
+        .amount {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          gap: 2%;
+          .decrease,
+          .increase {
+            border: 1px solid black;
+            text-align: center;
+            width: 15%;
+            height: 60%;
+
+            button {
+              height: 100%;
+              width: 100%;
+              outline: none;
+              border: none;
+              background-color: white;
+
+              &:hover {
+                background-color: yellow;
+                color: #354b9c;
+                transition: all 0.5s ease 0s;
+              }
+            }
+          }
+
+          input {
+            text-align: center;
+            width: 30%;
+            height: 60%;
+            padding: 2%;
+            background: #fff;
+            border: 1px solid black;
+            outline: none;
+          }
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .cart-contact {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    gap: 5%;
+
+    .button-add-cart {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      width: 20%;
+      padding: 1%;
+      outline: none;
+      border-radius: 10px;
+      border: none;
+      background-color: #354b9c;
+      color: white;
+
+      .order {
+        font-size: 16px;
+      }
+      &:hover {
+        opacity: 0.9;
+        transition: all ease 0.5s;
+      }
+    }
+
+    .button-phone {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      width: 20%;
+      padding: 1%;
+      outline: none;
+      border-radius: 10px;
+      border: none;
+      background-color: #04aa6d;
+      color: white;
+
+      .phone {
+        font-size: 16px;
+      }
+      &:hover {
+        opacity: 0.9;
+        transition: all ease 0.5s;
+      }
+    }
+
+    .button-zalo {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      width: 20%;
+      // padding: 1%;
+      outline: none;
+      border-radius: 10px;
+      border: none;
+      background-color: #0982c9;
+      // background-color: white;
+      color: white;
+      img {
+        width: 29%;
+        height: 100%;
+      }
+      .zalo {
+        font-size: 16px;
+      }
+      &:hover {
+        opacity: 0.9;
+        transition: all ease 0.5s;
+      }
+    }
+
+    PopupForm {
+      width: 20%;
+      height: 100%;
+    }
+  }
+
+  .request-contact {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    gap: 5%;
+
+    .request-form {
+      height: 100%;
+      width: 45%;
+
+      input {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .request-button {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      width: 20%;
+      padding: 1%;
+      outline: none;
+      border-radius: 10px;
+      border: none;
+      background-color: #354b9c;
+      color: white;
+      font-size: 16px;
+      &:hover {
+        opacity: 0.9;
+        transition: all ease 0.5s;
+      }
+    }
+  }
+
+  .contact-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    text-align: center;
+    transition: step-start;
+  }
+}

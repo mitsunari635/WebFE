@@ -1,0 +1,119 @@
+.product-page {
+  width: 100%;
+  height: fit-content;
+  padding: 0 20px;
+  border: 1px solid black;
+
+  .product-content {
+    height: fit-content;
+
+    .product-header {
+      width: 100%;
+      height: fit-content;
+      text-align: center;
+      font-size: 30px;
+      margin: 10px 0;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .product-type-above,
+    .product-type-below {
+      width: 100%;
+      height: 50px;
+      margin: 10px 0;
+      display: flex;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+
+      .type-change {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: inherit;
+        border: 1px solid #354b9c;
+        border-radius: 10px;
+        font-size: 18px;
+
+        &:hover {
+          cursor: pointer;
+          background: yellow;
+          color: blue;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .product-body {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      height: fit-content;
+
+      .slide-product {
+        flex: 0 0 25%;
+        width: 265px;
+        height: 290px;
+        padding: 0 15px;
+        margin-bottom: 80px;
+
+        .prod-img-container {
+          border: 1px solid black;
+          height: 100%;
+          width: 100%;
+
+          img {
+            // border: 1px solid black;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            size: inherit;
+          }
+        }
+
+        .product-detail {
+          .product-name {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 600;
+            height: 2.9em; /* Set the desired height for 2 rows of text */
+            overflow: hidden; /* Hide any overflow */
+            text-overflow: ellipsis; /* Add ellipsis if the text exceeds the height */
+            display: -webkit-box;
+            -webkit-line-clamp: 2; /* Limit the text to 2 lines */
+            -webkit-box-orient: vertical;
+
+            &:hover {
+              color: #354b9c;
+              cursor: pointer;
+            }
+          }
+
+          .product-price {
+            font-size: 14px;
+            display: flex;
+
+            .product-calculate-type {
+              margin-left: 5px;
+            }
+          }
+
+          .add-cart-button {
+            width: 100%;
+            border: none;
+            outline: none;
+            background-color: #354b9c;
+            color: white;
+
+            &:hover {
+              filter: saturate(0.6);
+              background-color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}

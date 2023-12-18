@@ -1,0 +1,292 @@
+//Home header
+.home-header-container {
+  font-family: serif;
+  background: #dadddd;
+
+  h4 {
+    color: #354b9c;
+  }
+
+  .to-cart-button {
+    &:hover {
+      background-color: #354b9c;
+      color: yellow;
+      transition: ease-in-out 0.5s;
+      cursor: pointer;
+    }
+  }
+}
+
+//Tab
+.tab-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #354b9c;
+  font-family: serif;
+
+  .tab {
+    color: white;
+
+    &:hover {
+      color: yellow;
+      cursor: pointer;
+    }
+  }
+}
+.tab-nav-container {
+  box-shadow: 20px 20px 50px 15px rgba(0, 0, 0, 0.412);
+  border-radius: 20px;
+
+  .tab-child {
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+    .tab-nav {
+      &:hover {
+        // background-color: #354b9c;
+        color: #354b9c;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//Discount
+.discount-container {
+  background: #dadddd;
+}
+
+//Banner
+// .home-header-banner {
+//   height: fit-content;
+//   display: flex;
+//   flex-direction: column;
+//   opacity: 0.8;
+//   padding: 0 3em;
+
+//   .content-info {
+//     background-image: url("../../assets/background-header.png");
+//     background-size: auto;
+//     background-position: center;
+//     height: 100%;
+//     display: flex;
+//     padding: 15px 10px 0 10px;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+
+//     .info-title {
+//       text-align: center;
+//       font-size: 40px;
+//       margin-bottom: 15px;
+//       color: rgb(0, 0, 0);
+//       background-color: white;
+//       width: fit-content;
+//       opacity: 0.85;
+//       font-weight: 550;
+//     }
+
+//     .info-write {
+//       text-align: left;
+//       font-size: 20px;
+//       color: rgb(0, 0, 0);
+//       margin-bottom: 15px;
+//       background-color: white;
+//       width: fit-content;
+//       opacity: 0.85;
+//       font-weight: 550;
+//     }
+//   }
+// }
+
+//Product sections
+.product-section-container {
+  font-family: serif;
+  background-color: #fafafa;
+  .section-header-container {
+    .see-more {
+      border: none;
+      outline: none;
+      background-color: #dadddd;
+      color: black;
+
+      &:hover {
+        background-color: #354b9c;
+        color: white;
+      }
+    }
+  }
+
+  .product-slider-container {
+    h5.font-weight-bold {
+      height: 2.5em; /* Set the desired height for 2 rows of text */
+      overflow: hidden; /* Hide any overflow */
+      text-overflow: ellipsis; /* Add ellipsis if the text exceeds the height */
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* Limit the text to 2 lines */
+      -webkit-box-orient: vertical;
+
+      &:hover {
+        color: #354b9c;
+      }
+    }
+
+    .product-price-container {
+      font-size: 16px;
+    }
+    .add-cart-button {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: #354b9c;
+      color: white;
+
+      &:hover {
+        filter: saturate(0.6);
+        background-color: red;
+      }
+    }
+  }
+}
+
+//reset slick slider css
+
+.slick-prev::before,
+.slick-next::before {
+  color: #000 !important;
+  font-family: "Font Awesome 5 Free";
+}
+
+.slick-prev {
+  top: 170px !important;
+  left: -20px !important;
+  z-index: 1000 !important;
+  height: 50px !important;
+  width: 35px !important;
+  background: #fff !important;
+  border: 1px solid #555 !important;
+}
+
+.slick-next {
+  top: 170px !important;
+  right: -21px !important;
+  z-index: 1000 !important;
+  height: 50px !important;
+  width: 35px !important;
+  background: #fff !important;
+  border: 1px solid #555 !important;
+}
+
+.slick-disabled {
+  display: none !important;
+}
+
+//footer
+.home-footer-container {
+  font-family: serif;
+  background: #dadddd;
+
+  .policy-nav {
+    &:hover {
+      color: #354b9c;
+      cursor: pointer;
+    }
+  }
+
+  h4 {
+    color: #354b9c;
+  }
+
+  .social {
+    height: 100%;
+    width: 8%;
+    background-color: #0866ff;
+  }
+  .copyrights-container {
+    background-color: white;
+  }
+}
+
+//contact ways
+.contact-ways {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1003;
+
+  .phone-number {
+    background-color: #0c9;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+
+    i {
+      font-size: 20px;
+      border-radius: 20px;
+      padding: 10px;
+      background-color: white;
+      color: #0c9;
+    }
+
+    .contact-number {
+      font-size: 20px;
+    }
+  }
+
+  .zalo-number {
+    background-color: #0068ff;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+
+    i {
+      font-size: 20px;
+      border-radius: 20px;
+      padding: 10px;
+      background-color: white;
+      color: #0068ff;
+    }
+
+    .contact-number {
+      font-size: 20px;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .phone {
+    width: 50px;
+    height: 50px;
+    background-color: #0c9;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+
+    a {
+      color: white;
+    }
+  }
+
+  .zalo {
+    width: 50px;
+    height: 50px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

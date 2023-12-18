@@ -1,0 +1,56 @@
+{
+  "homeheader": {
+    "product": "Sản phẩm",
+    "e-inovoice": "Hóa đơn điện tử"
+  },
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "user-redux": "Quản lý user redux",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    },
+    "admin": {
+      "manage-admin": "Quản lý",
+      "manage-user": "Quản lý người dùng",
+      "manage-employee": "Quản lý nhân viên",
+      "manage-customer": "Quản lý khách hàng",
+      "manage-all-user": "Tất cả người dùng",
+      "manage-product": "Quản lý sản phẩm",
+      "all-product": "Tất cả sản phẩm",
+      "manage-policy": "Quản lý chính sách",
+      "all-policy": "Tất cả chính sách",
+      "edit-detail-policy": "Chi tiết chính sách",
+      "describe-product": "Chi tiết sản phẩm",
+      "manage-form": "Quản lý phiếu",
+      "create-form": "Tạo phiếu",
+      "manage-order": "Quản lý đơn hàng",
+      "all-order": "Tất cả đơn hàng",
+      "manage-banner": "Quản lý banner",
+      "all-banner": "Tất cả banner",
+      "manage-news": "Quản lý tin tức",
+      "all-news": "Tất cả tin tức",
+      "detail-news": "Chi tiết tin tức"
+    },
+    "employee": {
+      "manage-product": "Quản lý sản phẩm",
+      "all-product": "Tất cả sản phẩm",
+      "photo-paper": "Giấy photo",
+      "rolled-paper": "Giấy cuộn",
+      "perforated-paper": "Giấy đục lỗ liên tục",
+      "printed-paper": "Giấy in",
+      "manage-order": "Quản lý đơn hàng",
+      "manage-news": "Quản lý tin tức",
+      "detail-product": "Chi tiết sản phẩm",
+      "manage-form": "Quản lý phiếu",
+      "create-form": "Tạo phiếu",
+      "form-redux": "Tạo phiếu"
+    }
+  }
+}

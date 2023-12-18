@@ -1,0 +1,45 @@
+@media only print {
+  @page {
+    margin: 0;
+    padding: 0;
+    size: 5.7in 6.7in;
+  }
+
+  #order,
+  #order * {
+    visibility: visible;
+
+    font-size: 12px;
+
+    h1 {
+      font-size: 18px;
+    }
+
+    h5,
+    .total-value {
+      font-size: 16px;
+    }
+
+    .col-7 {
+      width: 40%;
+    }
+
+    .col-1 {
+      width: 10%;
+    }
+
+    .col-2 {
+      width: 20%;
+    }
+  }
+
+  #order {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // position: static;
+    // margin: 0 auto;
+    // width: 100%;
+  }
+}

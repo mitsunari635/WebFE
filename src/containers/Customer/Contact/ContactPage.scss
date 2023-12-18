@@ -1,0 +1,126 @@
+// .contact-page {
+//   height: fit-content;
+//   display: flex;
+//   flex-direction: column;
+//   margin: 0 20px;
+
+//   .content-container {
+//     height: 100%;
+//     padding: 0 20px;
+//     margin-bottom: 10px;
+
+//     .contact-title {
+//       width: 100%;
+//       height: fit-content;
+//       text-align: center;
+//       font-size: 30px;
+//       text-transform: uppercase;
+//       font-weight: bold;
+//       font-family: Arial, Helvetica, sans-serif;
+//       margin: 10px 0;
+//     }
+
+//     .content-above {
+//       width: 60%;
+//       margin: auto;
+//       height: fit-content;
+
+//       display: flex;
+//       margin-bottom: 20px;
+
+//       .logo {
+//         width: 30%;
+//         height: 100%;
+
+//         img {
+//           width: 200px;
+//           height: 200px;
+//         }
+//       }
+
+//       .co-detail {
+//         width: 70%;
+//         height: 100%;
+//         padding: 0 10px;
+//         display: flex;
+//         flex-direction: column;
+//         text-align: center;
+
+//         .co-name {
+//           font-weight: bold;
+//           font-size: 30px;
+//           color: #354b9c;
+//         }
+
+//         .detail {
+//           font-size: 18px;
+//         }
+//       }
+//     }
+//   }
+
+//   .content-below {
+//     width: 100%;
+//     height: fit-content;
+
+//     .via-email {
+//       width: 100%;
+//       font-size: 30px;
+//       text-align: center;
+//       text-transform: uppercase;
+//       font-weight: bold;
+//       font-family: Arial, Helvetica, sans-serif;
+//     }
+
+//     .input-info {
+//       display: flex;
+
+//       span {
+//         color: red;
+//       }
+//     }
+
+//     .attachment-contain {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: flex-end;
+//       margin-top: 10px;
+
+//       button {
+//         width: 100%;
+//         height: 40px;
+//         border-radius: 10px;
+//         background-color: #354b9c;
+//         color: white;
+//         border: none;
+
+//         &:hover {
+//           font-weight: bold;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.contact-container {
+  h4 {
+    color: #354b9c;
+  }
+
+  h6 {
+    color: black;
+  }
+  span {
+    color: red;
+  }
+  button {
+    background: #354b9c;
+    outline: none;
+    border: none;
+    color: white;
+
+    &:hover {
+      color: yellow;
+    }
+  }
+}

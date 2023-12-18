@@ -1,0 +1,55 @@
+@media only print {
+  @page {
+    margin: 0;
+    padding: 0;
+    size: 5.7in 6.7in;
+  }
+
+  body * {
+    visibility: hidden;
+    font-size: 10px;
+  }
+
+  #order,
+  #order * {
+    visibility: visible;
+  }
+
+  #order {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    position: static;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+#TableManageOrder {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04aa6d;
+    text-align: left;
+    color: white;
+  }
+}

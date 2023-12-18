@@ -1,0 +1,48 @@
+.manage-product-container {
+    padding: 0 5px;
+
+    .save-detail-product {
+        color           : #fff;
+        background-color: #007bff;
+        border-radius   : 10px;
+        display         : block;
+        outline         : none;
+        border          : none;
+        padding         : 10px;
+        margin          : 10px;
+        cursor          : pointer;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .create-detail-product {
+        color           : #000;
+        background-color: #fbff00;
+        border-radius   : 10px;
+        display         : block;
+        outline         : none;
+        border          : none;
+        padding         : 10px;
+        margin          : 10px;
+        cursor          : pointer;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .more-info {
+        display        : flex;
+        justify-content: flex-start;
+
+        .content-left {
+            width: 30%;
+        }
+
+        .content-right {
+            width: 60%;
+        }
+    }
+}

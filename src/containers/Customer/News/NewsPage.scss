@@ -1,0 +1,19 @@
+img {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+h5 {
+  &:hover {
+    cursor: pointer;
+    filter: saturate(0.6);
+  }
+}
+
+span {
+  &:hover {
+    cursor: pointer;
+    filter: saturate(0.6);
+  }
+}

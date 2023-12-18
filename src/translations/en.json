@@ -1,0 +1,40 @@
+{
+    "homeheader": {
+        "product": "Sản phẩm",
+        "e-inovoice": "Hóa đơn điện tử"
+    },
+    "common": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "decentralize": "Decentralize",
+        "close": "Close",
+        "save": "Save",
+        "refresh": "Refresh",
+        "accept": "Accept",
+        "confirm": "Confirm",
+        "confirm-this-task": "Are you sure to process this task?",
+        "fail-to-load-data": "Fail to load data",
+        "unknown-error": "There was an error",
+        "internal-server-error": "Internal server error",
+        "bad-request": "Bad request",
+        "forbiden-request": "Invalid input data",
+        "fail-to-load-all-code": "Fail to load data from allcode",
+        "sum": "Sum",
+        "date-range-invalid": "Date range invalid"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "UserRedux manage",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        }
+    }
+}
